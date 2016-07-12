@@ -237,7 +237,7 @@ $pp_footer_style = get_option('pp_footer_style');
 						if(!empty($pp_topbar_contact_url))
 						{
 							?>
-							<span><a href="<?php echo $pp_topbar_contact_url; ?>"><i class="fa fa-map-marker"></i><?php _e( 'Find our Address', THEMEDOMAIN ); ?></a></span>
+							<!-- <span><a href="<?php echo $pp_topbar_contact_url; ?>"><i class="fa fa-map-marker"></i><?php _e( 'Find our Address', THEMEDOMAIN ); ?></a></span> -->
 							<?php
 						}
 						?>
@@ -453,98 +453,9 @@ $pp_footer_style = get_option('pp_footer_style');
 			<div id="menu_wrapper">
 
 				<!-- Begin logo -->
-				<?php
-				$use_transparent_logo = FALSE;
-				if(isset($pp_homepage_style) OR !empty($page_menu_transparent))
-				{
-					if($pp_homepage_style=='fullscreen' OR $pp_homepage_style=='fullscreen_video' OR $pp_homepage_style=='flip' OR !empty($pp_page_bg) OR !empty($page_menu_transparent))
-					{
-						$use_transparent_logo = TRUE;
-					}
-				}
-
-				//get custom logo
-				$pp_logo = get_option('pp_logo');
-				$pp_retina_logo = get_option('pp_retina_logo');
-				$pp_retina_logo_width = 0;
-				$pp_retina_logo_height = 0;
-
-				if(empty($pp_logo) && empty($pp_retina_logo))
-				{
-					$pp_retina_logo = get_template_directory_uri().'/images/logo@2x.png';
-					$pp_retina_logo_width = 69;
-					$pp_retina_logo_height = 33;
-				}
-
-				if(!empty($pp_retina_logo))
-				{
-					if(empty($pp_retina_logo_width) && empty($pp_retina_logo_height))
-					{
-						//Get image width and height
-						$pp_retina_logo_id = pp_get_image_id($pp_retina_logo);
-						$image_logo = wp_get_attachment_image_src($pp_retina_logo_id, 'original');
-
-						$pp_retina_logo = $image_logo[0];
-						$pp_retina_logo_width = $image_logo[1]/2;
-						$pp_retina_logo_height = $image_logo[2]/2;
-					}
-					?>
-					<a id="custom_logo" class="logo_wrapper <?php if($use_transparent_logo) { ?>hidden<?php } else { ?>default<?php } ?>" href="<?php echo home_url(); ?>">
-						<img src="<?php echo $pp_retina_logo; ?>" alt="" width="<?php echo $pp_retina_logo_width; ?>" height="<?php echo $pp_retina_logo_height; ?>"/>
-					</a>
-					<?php
-				}
-				else //if not retina logo
-				{
-					?>
-					<a id="custom_logo" class="logo_wrapper <?php if($use_transparent_logo) { ?>hidden<?php } else { ?>default<?php } ?>" href="<?php echo home_url(); ?>">
-						<img src="<?php echo $pp_logo?>" alt=""/>
-					</a>
-					<?php
-				}
-				?>
-
-				<?php
-				//get custom logo transparent
-				$pp_logo_transparent = get_option('pp_logo_transparent');
-				$pp_retina_logo_transparent = get_option('pp_retina_logo_transparent');
-				$pp_retina_logo_transparent_width = 0;
-				$pp_retina_logo_transparent_height = 0;
-
-				if(empty($pp_logo_transparent) && empty($pp_retina_logo_transparent))
-				{
-					$pp_retina_logo_transparent = get_template_directory_uri().'/images/logo@2x_white.png';
-					$pp_retina_logo_transparent_width = 69;
-					$pp_retina_logo_transparent_height = 33;
-				}
-
-				if(!empty($pp_retina_logo_transparent))
-				{
-					if(empty($pp_retina_logo_transparent_width) && empty($pp_retina_logo_transparent_width))
-					{
-						//Get image width and height
-						$pp_retina_logo_transparent_id = pp_get_image_id($pp_retina_logo_transparent);
-						$image_logo = wp_get_attachment_image_src($pp_retina_logo_transparent_id, 'original');
-
-						$pp_retina_logo_transparent = $image_logo[0];
-						$pp_retina_logo_transparent_width = $image_logo[1]/2;
-						$pp_retina_logo_transparent_height = $image_logo[2]/2;
-					}
-					?>
-					<a id="custom_logo_transparent" class="logo_wrapper <?php if(!$use_transparent_logo) { ?>hidden<?php } else { ?>default<?php } ?>" href="<?php echo home_url(); ?>">
-						<img src="<?php echo $pp_retina_logo_transparent; ?>" alt="" width="<?php echo $pp_retina_logo_transparent_width; ?>" height="<?php echo $pp_retina_logo_transparent_height; ?>"/>
-					</a>
-					<?php
-				}
-				else //if not retina logo
-				{
-					?>
-					<a id="custom_logo_transparent" class="logo_wrapper <?php if(!$use_transparent_logo) { ?>hidden<?php } else { ?>default<?php } ?>" href="<?php echo home_url(); ?>">
-						<img src="<?php echo $pp_logo_transparent?>" alt=""/>
-					</a>
-					<?php
-				}
-				?>
+				<a id="custom_logo" class="logo_wrapper default" href="<?php echo home_url(); ?>">
+					<img src="/wp-content/uploads/logo-long.svg" alt="" width="300" height="50"/>
+				</a>
 				<!-- End logo -->
 
 				<?php
