@@ -1,0 +1,63 @@
+body.home {
+  h2.ppb_title {
+    text-align: left;
+    text-transform: capitalize;
+  }
+
+  .page_caption_desc {
+    text-align: left;
+  }
+
+  .one.withsmallpadding {
+    padding: 20px 0 20px 0;
+  }
+
+  .tour_country {
+    font-size: 14px !important;
+    font-style: normal !important;
+  }
+
+  .ppb_tour .thumb_content h3  {
+    font-size: 15px !important;
+  }
+
+  .tour_days {
+    font-size: 12px !important;
+  }
+
+  .tour_price {
+    font-size: 20px !important;
+  }
+
+  .testimonial_slider_wrapper {
+    width: 100% !important;
+  }
+
+  .promo_box {
+    background: #E1703D;
+    border: none;
+    word-wrap: normal;
+  }
+
+  .promo_box h5 {
+    color: white !important;
+    font-size: 40px;
+  }
+
+  .promo_box h5 em {
+    color: #D18F61 !important;
+  }
+
+  .promo_box .button {
+    margin-top: 10px;
+  }
+
+  .page_caption_desc {
+    text-transform: none;
+    font-size: 16px !important;
+  }
+
+  .tour_country {
+    display: none;
+  }
+}
