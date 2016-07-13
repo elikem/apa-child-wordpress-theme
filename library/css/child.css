@@ -1,6 +1,9 @@
 body {
   font-size: 16px;
 }
+div.thumb_content.fullwidth .thumb_title .tour_country {
+  display: none;
+}
 body.home h2.ppb_title {
   text-align: left;
   text-transform: capitalize;
@@ -49,7 +52,31 @@ body.home .page_caption_desc {
 body.home .tour_country {
   display: none;
 }
-div.thumb_content.fullwidth .thumb_title .tour_country {
+.single.single-tours #page_caption.hasbg.fullscreen {
+  height: 610px !important;
+}
+.single.single-tours .tour_meta_wrapper {
+  display: none;
+}
+.single.single-tours .tour_call_to_action_box {
+  border: none;
+}
+.single.single-tours .tour-header h3 {
+  color: #423162 !important;
+}
+.single.single-tours .tour-header h2 {
+  color: #423162 !important;
+}
+.single.single-tours .tour-header p {
+  color: #423162 !important;
+}
+.single.single-tours div.thumb_content.fullwidth h3 {
+  font-size: 15px !important;
+}
+.single.single-tours .social_share_wrapper {
+  display: none;
+}
+.single.single-tours .tour_call_to_action {
   display: none;
 }
 #client-list-logo.footer_bar_wrapper .sidebar_content {
