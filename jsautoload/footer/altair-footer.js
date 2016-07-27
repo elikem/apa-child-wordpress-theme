@@ -1,18 +1,20 @@
-jQuery(document).ready(function($) {
+jQuery(document).ready(function() {
   // Toggle read more / less content
-  var readMoreLink = '<a class="read-more-or-less panel-grid-cell" id="read-more-link" href="javascript:void(0);">Read More</a>';
-  var readLessLink = '<a class="read-more-or-less panel-grid-cell" id="read-less-link" href="javascript:void(0);">Read Less</a>';
+  var readMoreLinkString = '<a class="read-more-or-less panel-grid-cell read-more-link" href="javascript:void(0);">Read More</a>';
+  var readLessLinkString = '<a class="read-more-or-less panel-grid-cell read-less-link" href="javascript:void(0);">Read Less</a>';
 
-  $('#read-less').append(readMoreLink);
-  $('#read-more').append(readLessLink);
+  jQuery('.read-more').hide();
 
-  $('#read-more-link').click(function() {
-    $('#read-more').show("fast");
-    $('#read-more-link').hide();
+  jQuery('.read-less').append(readMoreLinkString);
+  jQuery('.read-more').append(readLessLinkString);
+
+  jQuery('.read-more-link').click(function() {
+    jQuery('.read-more').show("fast");
+    jQuery('.read-more-link').hide();
   });
 
-  $('#read-less-link').click(function() {
-    $('#read-more').hide("fast");
-    $('#read-more-link').show();
+  jQuery('.read-less-link').click(function() {
+    jQuery('.read-more').hide("fast");
+    jQuery('.read-more-link').show();
   });
 });
