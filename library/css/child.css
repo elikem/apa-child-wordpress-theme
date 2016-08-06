@@ -55,6 +55,14 @@ body.home .page_caption_desc {
 body.home .tour_country {
   display: none;
 }
+.single.single-tours #page_caption.hasbg.fullscreen h1 {
+  font-size: 30px;
+}
+@media only screen and (max-width: 767px) {
+  .single.single-tours #page_caption.hasbg.fullscreen h1 {
+    font-size: 24px;
+  }
+}
 .single.single-tours .tour_meta_wrapper {
   display: none;
 }
