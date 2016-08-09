@@ -55,6 +55,9 @@ body.home .page_caption_desc {
 body.home .tour_country {
   display: none;
 }
+.single.single-tours .tour_country_subheader {
+  display: none;
+}
 .single.single-tours #page_caption.hasbg.fullscreen h1 {
   text-transform: none;
   font-size: 30px;
