@@ -446,7 +446,7 @@ $pp_footer_style = get_option('pp_footer_style');
 			}
 		}
 		?>
-		<div class="top_bar">
+    <div class="top_bar <?php if(!empty($pp_page_bg) && !empty($page_menu_transparent)) { ?>hasbg<?php } ?> <?php if(!empty($page_revslider) && $page_revslider!= -1 && !empty($page_menu_transparent)) { ?>hasbg<?php } ?> <?php if(isset($pp_homepage_style) && !empty($pp_homepage_style)) { echo $pp_homepage_style; } ?>">
 
 			<div id="mobile_nav_icon"></div>
 
