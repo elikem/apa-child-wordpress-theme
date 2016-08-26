@@ -92,11 +92,17 @@ body.home .tour_country {
 .single.single-tours .tour_call_to_action {
   display: none;
 }
-.page-template-default #crumbs {
+.page-template-default #page_caption.withtopbar #crumbs {
   display: none !important;
 }
 .page-template-default h3.widget-title {
   font-size: 22px;
+}
+.page-template-default .sow-cta-text h4 {
+  color: #882334;
+}
+.page-template-default .sow-cta-text h5 {
+  font-weight: bold;
 }
 #client-list-logo.footer_bar_wrapper .sidebar_content {
   width: 100%;
@@ -152,4 +158,7 @@ body.home .tour_country {
 #copyright {
   font-size: 16px;
   text-transform: capitalize;
+}
+#footer .sidebar_widget {
+  color: #333;
 }
