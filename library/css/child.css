@@ -1,10 +1,11 @@
 body {
   font-size: 16px;
+  color: #333;
 }
 .read-more-or-less {
   padding-left: 0 !important;
 }
-div.thumb_content.fullwidth .thumb_title .tour_country {
+div.thumb_content.fullwidth .thumb_title .tour_country, div.thumb_content .thumb_title .tour_country {
   display: none;
 }
 body.home h2.ppb_title {
@@ -90,6 +91,12 @@ body.home .tour_country {
 }
 .single.single-tours .tour_call_to_action {
   display: none;
+}
+.page-template-default #crumbs {
+  display: none !important;
+}
+.page-template-default h3.widget-title {
+  font-size: 22px;
 }
 #client-list-logo.footer_bar_wrapper .sidebar_content {
   width: 100%;

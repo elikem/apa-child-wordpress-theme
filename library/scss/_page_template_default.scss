@@ -1,0 +1,19 @@
+.page-template-default {
+  #page_caption.withtopbar #crumbs {
+    display: none !important;
+  }
+
+  h3.widget-title {
+    font-size: 22px;
+  }
+
+  .sow-cta-text {
+    h4 {
+      color: #882334;
+    }
+
+    h5 {
+      font-weight: bold;
+    }
+  }
+}
