@@ -72,7 +72,7 @@ body.home .tour_country {
   display: none !important; }
 .page-template-default #crumbs {
   display: none; }
-.page-template-default h3.widget-title {
+.page-template-default h3, .page-template-default h3.widget-title {
   font-size: 22px; }
 .page-template-default .sow-cta-text h4 {
   color: #882334; }
