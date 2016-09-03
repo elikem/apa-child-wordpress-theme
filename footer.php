@@ -66,15 +66,21 @@
 	<div class="footer_bar_wrapper" id="client-list-logo">
 		<h3 style="display: block; text-align: center; color: #882334;">Featured In</h3>
 		<div class="sidebar_content">
-			<div id="pl-3717"><div class="panel-grid" id="pg-3717-0"><div class="panel-grid-cell" id="pgc-3717-0-0"><div class="so-panel widget widget_sow-image-grid panel-first-child panel-last-child" id="panel-3717-0-0-0" data-index="0"><div class="so-widget-sow-image-grid so-widget-sow-image-grid-default-8392b8051d0b">	<div class="sow-image-grid-wrapper">
-									<div class="sow-image-grid-image"><img width="210" height="119" src="/wp-content/uploads/bradt.jpg" class="attachment-full size-full" alt="bradt" title="" style="display: block;"></div>	</div>
-							</div></div></div><div class="panel-grid-cell" id="pgc-3717-0-1"><div class="so-panel widget widget_sow-image-grid panel-first-child panel-last-child" id="panel-3717-0-1-0" data-index="1"><div class="so-widget-sow-image-grid so-widget-sow-image-grid-default-8392b8051d0b">	<div class="sow-image-grid-wrapper">
-									<div class="sow-image-grid-image"><img width="210" height="79" src="/wp-content/uploads/conde-nast-traveler.jpg" class="attachment-full size-full" alt="conde-nast-traveler" title="" style="display: block;"></div>	</div>
-							</div></div></div><div class="panel-grid-cell" id="pgc-3717-0-2"><div class="so-panel widget widget_sow-image-grid panel-first-child panel-last-child" id="panel-3717-0-2-0" data-index="2"><div class="so-widget-sow-image-grid so-widget-sow-image-grid-default-8392b8051d0b">	<div class="sow-image-grid-wrapper">
-									<div class="sow-image-grid-image"><img width="210" height="49" src="/wp-content/uploads/new-yorker.jpg" class="attachment-full size-full" alt="new-yorker" title="" style="display: block;"></div>	</div>
-							</div></div></div><div class="panel-grid-cell" id="pgc-3717-0-3"><div class="so-panel widget widget_sow-image-grid panel-first-child panel-last-child" id="panel-3717-0-3-0" data-index="3"><div class="so-widget-sow-image-grid so-widget-sow-image-grid-default-8392b8051d0b">	<div class="sow-image-grid-wrapper">
-									<div class="sow-image-grid-image"><img width="98" height="119" src="/wp-content/uploads/rough-guides.png" class="attachment-full size-full" alt="rough-guides" title="" style="display: block;"></div>	</div>
-							</div></div></div></div></div>    		</div>
+			<section class="slider">
+				<div>
+					<img src="/wp-content/uploads/slick/logos/bradt.jpg">
+				</div>
+				<div>
+					<img src="/wp-content/uploads/slick/logos/conde-nast.png">
+				</div>
+				<div>
+					<img src="/wp-content/uploads/slick/logos/new-yorker.png">
+				</div>
+				<div>
+					<img src="/wp-content/uploads/slick/logos/rough-guides.png">
+				</div>
+			</section>
+		</div>
 	</div>
 
 	<ul class="sidebar_widget <?php echo $footer_class; ?>">

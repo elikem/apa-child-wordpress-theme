@@ -1,3 +1,5 @@
+@import "slider";
+
 #footer h2.widgettitle {
   font-size: 16px;
   text-transform: capitalize;
@@ -10,4 +12,28 @@
 
 #footer .sidebar_widget {
   color: #333;
+}
+
+#client-list-logo .sidebar_content {
+  * {
+    box-sizing: border-box;
+  }
+
+  .slider {
+    width: 500px;
+    margin: 0 auto 30px;
+  }
+
+  .slick-slide {
+    margin: 0 20px;
+  }
+
+  .slick-slide img {
+    width: 100%;
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    color: black;
+  }
 }
