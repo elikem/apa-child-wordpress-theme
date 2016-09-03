@@ -403,8 +403,10 @@ body.home .tour_country {
   box-sizing: border-box;
 }
 #client-list-logo .sidebar_content .slider {
-  width: 500px;
+  width: 100%;
+  max-width: 500px;
   margin: 0 auto 30px;
+  overflow: hidden;
 }
 #client-list-logo .sidebar_content .slick-slide {
   margin: 0 20px;
