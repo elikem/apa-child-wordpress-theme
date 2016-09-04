@@ -1,10 +1,6 @@
 .page-template-default {
-  #page_caption.withtopbar #crumbs {
+  #crumbs, #page_caption.hasbg #crumbs {
     display: none !important;
-  }
-
-  #crumbs {
-    display: none;
   }
 
   h3, h3.widget-title {

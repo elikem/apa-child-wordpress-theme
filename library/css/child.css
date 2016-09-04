@@ -1,190 +1,157 @@
-@charset 'UTF-8';
+@charset "UTF-8";
 body {
   font-size: 16px;
-  color: #333;
-}
+  color: #333; }
+
 .read-more-or-less {
-  padding-left: 0 !important;
-}
+  padding-left: 0 !important; }
+
 div.thumb_content.fullwidth .thumb_title .tour_country, div.thumb_content .thumb_title .tour_country {
-  display: none;
-}
+  display: none; }
+
 body.home h2.ppb_title {
   text-align: left;
-  text-transform: capitalize;
-}
+  text-transform: capitalize; }
 body.home .page_caption_desc {
-  text-align: left;
-}
+  text-align: left; }
 body.home .one.withsmallpadding {
-  padding: 20px 0 20px 0;
-}
+  padding: 20px 0 20px 0; }
 body.home .tour_country {
   font-size: 14px !important;
-  font-style: normal !important;
-}
+  font-style: normal !important; }
 body.home .ppb_tour .thumb_content h3 {
-  font-size: 15px !important;
-}
+  font-size: 15px !important; }
 body.home .tour_days {
-  font-size: 12px !important;
-}
+  font-size: 12px !important; }
 body.home .tour_price {
-  font-size: 20px !important;
-}
+  font-size: 20px !important; }
 body.home .testimonial_slider_wrapper {
-  width: 100% !important;
-}
+  width: 100% !important; }
 body.home .promo_box {
-  background: #e1703d;
+  background: #E1703D;
   border: none;
-  word-wrap: normal;
-}
+  word-wrap: normal; }
 body.home .promo_box h5 {
   color: white !important;
-  font-size: 40px;
-}
+  font-size: 40px; }
 body.home .promo_box h5 em {
-  color: #d18f61 !important;
-}
+  color: #D18F61 !important; }
 body.home .promo_box .button {
-  margin-top: 10px;
-}
+  margin-top: 10px; }
 body.home .page_caption_desc {
   text-transform: none;
-  font-size: 16px !important;
-}
+  font-size: 16px !important; }
 body.home .tour_country {
-  display: none;
-}
+  display: none; }
+
 .single.single-tours .tour_country_subheader {
-  display: none;
-}
+  display: none; }
 .single.single-tours #page_caption.hasbg.fullscreen h1 {
   text-transform: none;
-  font-size: 30px;
-}
-@media only screen and (max-width: 767px) {
-  .single.single-tours #page_caption.hasbg.fullscreen h1 {
-    font-size: 24px;
-  }
-}
+  font-size: 30px; }
+  @media only screen and (max-width: 767px) {
+    .single.single-tours #page_caption.hasbg.fullscreen h1 {
+      font-size: 24px; } }
 .single.single-tours .tour_meta_wrapper {
-  display: none;
-}
+  display: none; }
 .single.single-tours .tour_call_to_action_box {
-  border: none;
-}
+  border: none; }
 .single.single-tours .tour-header h3 {
-  color: #423162 !important;
-}
+  color: #423162 !important; }
 .single.single-tours .tour-header h2 {
-  color: #423162 !important;
-}
+  color: #423162 !important; }
 .single.single-tours .tour-header p {
-  color: #423162 !important;
-}
+  color: #423162 !important; }
 .single.single-tours div.thumb_content.fullwidth h3 {
-  font-size: 15px !important;
-}
+  font-size: 15px !important; }
 .single.single-tours .social_share_wrapper {
-  display: none;
-}
+  display: none; }
 .single.single-tours .tour_call_to_action {
-  display: none;
-}
-.page-template-default #page_caption.withtopbar #crumbs {
-  display: none !important;
-}
-.page-template-default #crumbs {
-  display: none;
-}
+  display: none; }
+
+.page-template-default #crumbs, .page-template-default #page_caption.hasbg #crumbs {
+  display: none !important; }
 .page-template-default h3, .page-template-default h3.widget-title {
-  font-size: 22px;
-}
+  font-size: 22px; }
 .page-template-default .sow-cta-text h4 {
-  color: #882334;
-}
+  color: #882334; }
 .page-template-default .sow-cta-text h5 {
-  font-weight: bold;
-}
+  font-weight: bold; }
+
+.page-template-page_r #page_caption.hasbg #crumbs {
+  display: none !important; }
+
 #a-la-carte-tour-list ul {
   margin-left: 0 !important;
-  max-height: 335px;
+  max-height: 300px;
   overflow-y: scroll;
-  padding-top: 0 !important;
-}
-#a-la-carte-tour-list ul li {
-  margin-right: 10px;
-  padding: 7px 13px !important;
-  display: inline-block;
-  font-size: 13px;
-  color: #777;
-  font-weight: 600;
-  border: none;
-  border-radius: 2px;
-  background-color: #ddd;
-  margin-bottom: 6px;
-  cursor: pointer;
-}
-#a-la-carte-tour-list ul li:hover {
-  background-color: #882334;
-  color: #fff;
-}
+  padding-top: 0 !important; }
+  #a-la-carte-tour-list ul li {
+    margin-right: 10px;
+    padding: 7px 13px !important;
+    display: inline-block;
+    font-size: 13px;
+    color: #777;
+    font-weight: 600;
+    border: none;
+    border-radius: 2px;
+    background-color: #ddd;
+    margin-bottom: 6px;
+    cursor: pointer; }
+    #a-la-carte-tour-list ul li:hover {
+      background-color: #882334;
+      color: #fff; }
+
 #client-list-logo.footer_bar_wrapper .sidebar_content {
   width: 100%;
   padding: 0;
   margin-top: 0;
   border: 0;
   padding-top: 20px;
-  padding-bottom: 40px;
-}
+  padding-bottom: 40px; }
+
 @media only screen and (max-width: 960px) and (min-width: 768px) {
   #client-list-logo.footer_bar_wrapper #page_content_wrapper .inner .sidebar_content, #client-list-logo.footer_bar_wrapper .gallery_mansory_wrapper {
     width: 100%;
-    padding-top: 10px;
-  }
+    padding-top: 10px; }
+
   #client-list-logo.footer_bar_wrapper #page_content_wrapper .inner .sidebar_content {
-    margin-right: 0;
-  }
+    margin-right: 0; }
+
   #client-list-logo.footer_bar_wrapper #page_content_wrapper .inner .sidebar_content.full_width img, #client-list-logo.footer_bar_wrapper #page_content_wrapper .inner .sidebar_content.full_width div, #client-list-logo.footer_bar_wrapper #page_content_wrapper .inner .sidebar_content.full_width iframe {
-    max-width: 100%;
-  }
-}
+    max-width: 100%; } }
 #client-list-logo.footer_bar_wrapper #pg-3717-0 {
   margin-left: -15px;
-  margin-right: -15px;
-}
+  margin-right: -15px; }
+
 #client-list-logo.footer_bar_wrapper .panel-grid {
-  zoom: 1;
-}
+  zoom: 1; }
+
 #client-list-logo.footer_bar_wrapper .panel-grid:before {
   content: '';
-  display: block;
-}
+  display: block; }
+
 #client-list-logo.footer_bar_wrapper *, *::after, *::before {
-  box-sizing: inherit;
-}
+  box-sizing: inherit; }
+
 #client-list-logo.footer_bar_wrapper #pg-3717-0 .panel-grid-cell {
   padding-left: 15px;
-  padding-right: 15px;
-}
+  padding-right: 15px; }
+
 #client-list-logo.footer_bar_wrapper #pg-3717-0 .panel-grid-cell {
-  float: left;
-}
+  float: left; }
+
 @media (max-width: 780px) {
   #client-list-logo.footer_bar_wrapper #pg-3717-0 .panel-grid-cell {
     float: none;
-    width: auto;
-  }
-}
+    width: auto; } }
 .slick-list, .slick-slider, .slick-track {
   position: relative;
-  display: block;
-}
+  display: block; }
+
 .slick-loading .slick-slide, .slick-loading .slick-track {
-  visibility: hidden;
-}
+  visibility: hidden; }
+
 .slick-slider {
   box-sizing: border-box;
   -webkit-user-select: none;
@@ -195,88 +162,87 @@ body.home .tour_country {
   -khtml-user-select: none;
   -ms-touch-action: pan-y;
   touch-action: pan-y;
-  -webkit-tap-highlight-color: transparent;
-}
+  -webkit-tap-highlight-color: transparent; }
+
 .slick-list {
   overflow: hidden;
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
+
 .slick-list:focus {
-  outline: 0;
-}
+  outline: 0; }
+
 .slick-list.dragging {
   cursor: pointer;
-  cursor: hand;
-}
+  cursor: hand; }
+
 .slick-slider .slick-list, .slick-slider .slick-track {
   -webkit-transform: translate3d(0, 0, 0);
   -moz-transform: translate3d(0, 0, 0);
   -ms-transform: translate3d(0, 0, 0);
   -o-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-}
+  transform: translate3d(0, 0, 0); }
+
 .slick-track {
   top: 0;
-  left: 0;
-}
+  left: 0; }
+
 .slick-track:after, .slick-track:before {
   display: table;
-  content: '';
-}
+  content: ""; }
+
 .slick-track:after {
-  clear: both;
-}
+  clear: both; }
+
 .slick-slide {
   display: none;
   float: left;
   height: 100%;
-  min-height: 1px;
-}
+  min-height: 1px; }
+
 [dir=rtl] .slick-slide {
-  float: right;
-}
+  float: right; }
+
 .slick-slide img {
-  display: block;
-}
+  display: block; }
+
 .slick-slide.slick-loading img {
-  display: none;
-}
+  display: none; }
+
 .slick-slide.dragging img {
-  pointer-events: none;
-}
+  pointer-events: none; }
+
 .slick-initialized .slick-slide {
-  display: block;
-}
+  display: block; }
+
 .slick-vertical .slick-slide {
   display: block;
   height: auto;
-  border: 1px solid transparent;
-}
+  border: 1px solid transparent; }
+
 .slick-arrow.slick-hidden {
-  display: none;
-  /*# sourceMappingURL=slick.min.css.map */
-}
+  display: none; }
+
+/*# sourceMappingURL=slick.min.css.map */
 .slick-dots, .slick-next, .slick-prev {
   position: absolute;
   display: block;
-  padding: 0;
-}
+  padding: 0; }
+
 .slick-dots li button:before, .slick-next:before, .slick-prev:before {
   font-family: slick;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+  -moz-osx-font-smoothing: grayscale; }
+
 .slick-loading .slick-list {
-  background: url(/wp-content/uploads/slick/ajax-loader.gif) center center no-repeat #fff;
-}
+  background: url(/wp-content/uploads/slick/ajax-loader.gif) center center no-repeat #fff; }
+
 @font-face {
   font-family: slick;
   font-weight: 400;
   font-style: normal;
   src: url(/wp-content/uploads/slick/fonts/slick.eot);
-  src: url(/wp-content/uploads/slick/fonts/slick.eot?#iefix) format('embedded-opentype'), url(/wp-content/uploads/slick/fonts/slick.woff) format('woff'), url(/wp-content/uploads/slick/fonts/slick.ttf) format('truetype'), url(/wp-content/uploads/slick/fonts/slick.svg#slick) format('svg');
-}
+  src: url(/wp-content/uploads/slick/fonts/slick.eot?#iefix) format("embedded-opentype"), url(/wp-content/uploads/slick/fonts/slick.woff) format("woff"), url(/wp-content/uploads/slick/fonts/slick.ttf) format("truetype"), url(/wp-content/uploads/slick/fonts/slick.svg#slick) format("svg"); }
 .slick-next, .slick-prev {
   font-size: 0;
   line-height: 0;
@@ -290,58 +256,58 @@ body.home .tour_country {
   color: transparent;
   border: none;
   outline: 0;
-  background: 0 0;
-}
+  background: 0 0; }
+
 .slick-next:focus, .slick-next:hover, .slick-prev:focus, .slick-prev:hover {
   color: transparent;
   outline: 0;
-  background: 0 0;
-}
+  background: 0 0; }
+
 .slick-next:focus:before, .slick-next:hover:before, .slick-prev:focus:before, .slick-prev:hover:before {
-  opacity: 1;
-}
+  opacity: 1; }
+
 .slick-next.slick-disabled:before, .slick-prev.slick-disabled:before {
-  opacity: 0.25;
-}
+  opacity: 0.25; }
+
 .slick-next:before, .slick-prev:before {
   font-size: 20px;
   line-height: 1;
-  opacity: 0.75;
-  color: #fff;
-}
+  opacity: .75;
+  color: #fff; }
+
 .slick-prev {
-  left: -25px;
-}
+  left: -25px; }
+
 [dir=rtl] .slick-prev {
   right: -25px;
-  left: auto;
-}
+  left: auto; }
+
 .slick-prev:before {
-  content: '←';
-}
+  content: "←"; }
+
 .slick-next:before, [dir=rtl] .slick-prev:before {
-  content: '→';
-}
+  content: "→"; }
+
 .slick-next {
-  right: -25px;
-}
+  right: -25px; }
+
 [dir=rtl] .slick-next {
   right: auto;
-  left: -25px;
-}
+  left: -25px; }
+
 [dir=rtl] .slick-next:before {
-  content: '←';
-}
+  content: "←"; }
+
 .slick-dotted.slick-slider {
-  margin-bottom: 30px;
-}
+  margin-bottom: 30px; }
+
 .slick-dots {
   bottom: -25px;
   width: 100%;
   margin: 0;
   list-style: none;
-  text-align: center;
-}
+  text-align: center; }
+
 .slick-dots li {
   position: relative;
   display: inline-block;
@@ -349,8 +315,8 @@ body.home .tour_country {
   height: 20px;
   margin: 0 5px;
   padding: 0;
-  cursor: pointer;
-}
+  cursor: pointer; }
+
 .slick-dots li button {
   font-size: 0;
   line-height: 0;
@@ -362,14 +328,14 @@ body.home .tour_country {
   color: transparent;
   border: 0;
   outline: 0;
-  background: 0 0;
-}
+  background: 0 0; }
+
 .slick-dots li button:focus, .slick-dots li button:hover {
-  outline: 0;
-}
+  outline: 0; }
+
 .slick-dots li button:focus:before, .slick-dots li button:hover:before {
-  opacity: 1;
-}
+  opacity: 1; }
+
 .slick-dots li button:before {
   font-size: 6px;
   line-height: 20px;
@@ -380,40 +346,36 @@ body.home .tour_country {
   height: 20px;
   content: '•';
   text-align: center;
-  opacity: 0.25;
-  color: #000;
-}
+  opacity: .25;
+  color: #000; }
+
 .slick-dots li.slick-active button:before {
-  opacity: 0.75;
-  color: #000;
-  /*# sourceMappingURL=slick-theme.min.css.map */
-}
+  opacity: .75;
+  color: #000; }
+
+/*# sourceMappingURL=slick-theme.min.css.map */
 #footer h2.widgettitle {
   font-size: 16px;
-  text-transform: capitalize;
-}
+  text-transform: capitalize; }
+
 #copyright {
   font-size: 16px;
-  text-transform: capitalize;
-}
+  text-transform: capitalize; }
+
 #footer .sidebar_widget {
-  color: #333;
-}
+  color: #333; }
+
 #client-list-logo .sidebar_content * {
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 #client-list-logo .sidebar_content .slider {
   width: 100%;
   max-width: 500px;
   margin: 0 auto 30px;
-  overflow: hidden;
-}
+  overflow: hidden; }
 #client-list-logo .sidebar_content .slick-slide {
-  margin: 0 20px;
-}
+  margin: 0 20px; }
 #client-list-logo .sidebar_content .slick-slide img {
-  width: 100%;
-}
-#client-list-logo .sidebar_content .slick-prev:before, #client-list-logo .sidebar_content .slick-next:before {
-  color: black;
-}
+  width: 100%; }
+#client-list-logo .sidebar_content .slick-prev:before,
+#client-list-logo .sidebar_content .slick-next:before {
+  color: black; }
