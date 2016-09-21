@@ -16,4 +16,55 @@
       font-weight: bold;
     }
   }
+
+  #your-trip .your-trip, #about-you .about-you, #about-our-services .about-our-services, #faq .faq {
+    font-weight: bold;
+  }
+
+  .your-trip-navigation {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    ul {
+      margin-left: 0 !important;
+      list-style: none;
+
+      li {
+        display: inline-block;
+        margin-left: 10px;
+        font-weight: 500;
+
+        &:first-child {
+          margin-left: 0;
+          color: black;
+          cursor: pointer;
+
+          a {
+            cursor: default;
+            color: black;
+            font-weight: bold;
+          }
+
+          &:after {
+            content: "";
+            padding-left: 0;
+          }
+        }
+
+        &:last-child {
+          &:after {
+            content: "";
+            padding-left: 0;
+          }
+        }
+
+        &:after {
+          content: "|";
+          padding-left: 10px;
+        }
+      }
+    }
+  }
 }
