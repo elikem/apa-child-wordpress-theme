@@ -133,6 +133,14 @@ body.home .tour_country {
       background-color: #882334;
       color: #fff; }
 
+.iphorm_1_14-input-ul {
+  -moz-column-count: 2;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 20px;
+  column-count: 2;
+  column-gap: 20px; }
+
 #client-list-logo.footer_bar_wrapper .sidebar_content {
   width: 100%;
   padding: 0;
