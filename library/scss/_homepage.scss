@@ -6,8 +6,10 @@ body.home {
 
   .page_caption_desc {
     text-align: left;
+    text-transform: none;
+    font-size: 16px !important;
+    font-style: normal;
   }
-
   .one.withsmallpadding {
     padding: 20px 0 20px 0;
   }
@@ -50,11 +52,6 @@ body.home {
 
   .promo_box .button {
     margin-top: 10px;
-  }
-
-  .page_caption_desc {
-    text-transform: none;
-    font-size: 16px !important;
   }
 
   .tour_country {

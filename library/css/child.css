@@ -13,7 +13,10 @@ body.home h2.ppb_title {
   text-align: left;
   text-transform: capitalize; }
 body.home .page_caption_desc {
-  text-align: left; }
+  text-align: left;
+  text-transform: none;
+  font-size: 16px !important;
+  font-style: normal; }
 body.home .one.withsmallpadding {
   padding: 20px 0 20px 0; }
 body.home .tour_country {
@@ -38,9 +41,6 @@ body.home .promo_box h5 em {
   color: #D18F61 !important; }
 body.home .promo_box .button {
   margin-top: 10px; }
-body.home .page_caption_desc {
-  text-transform: none;
-  font-size: 16px !important; }
 body.home .tour_country {
   display: none; }
 
