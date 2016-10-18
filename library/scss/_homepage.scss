@@ -40,11 +40,12 @@ body.home {
     background: #E1703D;
     border: none;
     word-wrap: normal;
+    padding: 10px;
   }
 
   .promo_box h5 {
     color: white !important;
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .promo_box h5 em {
@@ -52,7 +53,7 @@ body.home {
   }
 
   .promo_box .button {
-    margin-top: 10px;
+    margin-top: 4px;
   }
 
   .tour_country {
@@ -60,7 +61,7 @@ body.home {
   }
 
   .testimonial_slider_meta {
-    h6, .testimonial_slider_meta_company {
+    h6, .testimonial_slider_meta_company, .testimonial_slider_meta_position {
       font-size: 16px;
       font-family: Raleway;
       font-weight: bold;
