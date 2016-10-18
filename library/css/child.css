@@ -44,6 +44,10 @@ body.home .promo_box .button {
   margin-top: 10px; }
 body.home .tour_country {
   display: none; }
+body.home .testimonial_slider_meta h6, body.home .testimonial_slider_meta .testimonial_slider_meta_company {
+  font-size: 16px;
+  font-family: Raleway;
+  font-weight: bold; }
 
 .single.single-tours .tour_country_subheader {
   display: none; }
