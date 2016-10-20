@@ -66,20 +66,18 @@
 	<div class="footer_bar_wrapper" id="client-list-logo">
 		<h3 style="display: block; text-align: center; color: #882334;">Featured In</h3>
 		<div class="sidebar_content">
-			<section class="slider">
-				<div>
-					<img src="/wp-content/uploads/slick/logos/bradt.jpg">
-				</div>
-				<div>
-					<img src="/wp-content/uploads/slick/logos/conde-nast.png">
-				</div>
-				<div>
-					<img src="/wp-content/uploads/slick/logos/new-yorker.png">
-				</div>
-				<div>
-					<img src="/wp-content/uploads/slick/logos/rough-guides.png">
-				</div>
-			</section>
+			<div>
+				<img src="/wp-content/uploads/slick/logos/bradt.jpg">
+			</div>
+			<div>
+				<img src="/wp-content/uploads/slick/logos/conde-nast.png">
+			</div>
+			<div>
+				<img src="/wp-content/uploads/slick/logos/new-yorker.png">
+			</div>
+			<div>
+				<img src="/wp-content/uploads/slick/logos/rough-guides.png">
+			</div>
 		</div>
 	</div>
 
