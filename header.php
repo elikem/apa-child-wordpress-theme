@@ -490,6 +490,7 @@ $pp_footer_style = get_option('pp_footer_style');
 							</button>
 						</div>
 						<div id="autocomplete"></div>
+						<div id="search-text">Search</div>
 					</form>
 					<?php
 				}
