@@ -1,20 +1,9 @@
-jQuery(document).ready(function() {
-  // Toggle read more / less content
-  var readMoreLinkString = '<a class="read-more-or-less panel-grid-cell read-more-link" href="javascript:void(0);">Read More</a>';
-  var readLessLinkString = '<a class="read-more-or-less panel-grid-cell read-less-link" href="javascript:void(0);">Read Less</a>';
+jQuery(document).ready(function($) {
+  var tourButton = $('a.ow-button-hover');
 
-  jQuery('.read-more').hide();
+  if (tourButton.find('span').text().trim() == 'VIEW TOURS') {
+    console.log('true');
 
-  jQuery('.read-less').append(readMoreLinkString);
-  jQuery('.read-more').append(readLessLinkString);
-
-  jQuery('.read-more-link').click(function() {
-    jQuery('.read-more').show("fast");
-    jQuery('.read-more-link').hide();
-  });
-
-  jQuery('.read-less-link').click(function() {
-    jQuery('.read-more').hide("fast");
-    jQuery('.read-more-link').show();
-  });
+    tourButton.attr('href', '/asia-a-la-carte-tours/');
+  }
 });
