@@ -20,10 +20,11 @@
 
       a {
         padding: 7px 13px !important;
+        display: block;
 
         &:hover {
           background-color: #882334;
-          color: #fff;
+          color: #fff !important;
         }
       }
     }

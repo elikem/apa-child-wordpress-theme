@@ -155,10 +155,11 @@ body.home .testimonial_slider_meta h6, body.home .testimonial_slider_meta .testi
     margin-bottom: 6px;
     cursor: pointer; }
     #a-la-carte-tour-list ul li a {
-      padding: 7px 13px !important; }
+      padding: 7px 13px !important;
+      display: block; }
       #a-la-carte-tour-list ul li a:hover {
         background-color: #882334;
-        color: #fff; }
+        color: #fff !important; }
 
 .iphorm_1_14-input-ul {
   -moz-column-count: 2;
