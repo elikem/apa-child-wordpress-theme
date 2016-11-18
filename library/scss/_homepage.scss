@@ -1,4 +1,14 @@
 body.home {
+  #homepage-text {
+    p {
+      margin-bottom: 10px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+  
   h2.ppb_title {
     text-align: left;
     text-transform: capitalize;
