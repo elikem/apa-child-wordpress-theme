@@ -9,7 +9,7 @@ jQuery(document).ready(function($) {
     window.location.href = '/request-a-catalog/';
   });
 
-  var newAndNewsLink = '<p style="padding: 10px; text-decoration: underline;"><a href="/new-news/">Click here to read our newsletter</a></p>';
+  var newAndNewsLink = '<p style="padding: 10px; text-decoration: underline;"><a href="/new-and-news/">Click here to read our newsletter</a></p>';
   var newAndNewsNode = $('.sidebar_widget.three .widget_sow-contact-form');
   newAndNewsNode.append(newAndNewsLink);
 
