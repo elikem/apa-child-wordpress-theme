@@ -1,0 +1,29 @@
+body.blog {
+  .post {
+    .post_detail {
+      display: none !important;
+    }
+
+    .comment_counter {
+      display: none !important;
+    }
+  }
+}
+
+body.single-post {
+  .comment_counter {
+    display: none !important;
+  }
+
+  .sidebar_widget {
+    .post_attribute {
+      display: none !important;
+    }
+  }
+
+  .sidebar_content {
+    .post_img {
+      display: none !important;
+    }
+  }
+}
