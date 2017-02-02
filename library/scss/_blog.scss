@@ -1,4 +1,12 @@
 body.blog {
+  #page_caption {
+    .page_title_wrapper {
+      h1 {
+        font-size: 30px !important;
+      }
+    }
+  }
+
   .post {
     .post_detail {
       display: none !important;
@@ -22,6 +30,12 @@ body.single-post {
   }
 
   #page_caption {
+    .page_title_wrapper {
+      h1 {
+        font-size: 30px !important;
+      }
+    }
+
     .post_detail {
       display: none !important;
     }

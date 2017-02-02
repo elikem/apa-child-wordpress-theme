@@ -178,6 +178,8 @@ body.home .testimonial_slider_meta h6, body.home .testimonial_slider_meta .testi
   column-count: 2;
   column-gap: 20px; }
 
+body.blog #page_caption .page_title_wrapper h1 {
+  font-size: 30px !important; }
 body.blog .post .post_detail {
   display: none !important; }
 body.blog .post .comment_counter {
@@ -187,6 +189,8 @@ body.single-post .comment_counter {
   display: none !important; }
 body.single-post .sidebar_widget .post_attribute {
   display: none !important; }
+body.single-post #page_caption .page_title_wrapper h1 {
+  font-size: 30px !important; }
 body.single-post #page_caption .post_detail {
   display: none !important; }
 
