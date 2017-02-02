@@ -179,7 +179,8 @@ body.home .testimonial_slider_meta h6, body.home .testimonial_slider_meta .testi
   column-gap: 20px; }
 
 body.blog #page_caption .page_title_wrapper h1 {
-  font-size: 30px !important; }
+  font-size: 30px !important;
+  text-transform: none !important; }
 body.blog .post .post_detail {
   display: none !important; }
 body.blog .post .comment_counter {
@@ -190,7 +191,8 @@ body.single-post .comment_counter {
 body.single-post .sidebar_widget .post_attribute {
   display: none !important; }
 body.single-post #page_caption .page_title_wrapper h1 {
-  font-size: 30px !important; }
+  font-size: 30px !important;
+  text-transform: none !important; }
 body.single-post #page_caption .post_detail {
   display: none !important; }
 
