@@ -192,7 +192,8 @@ body.single-post .sidebar_widget .post_attribute {
   display: none !important; }
 body.single-post .sidebar_widget h2.widgettitle {
   font-size: 28px !important;
-  text-transform: none !important; }
+  text-transform: none !important;
+  color: #993300 !important; }
 body.single-post #page_caption .page_title_wrapper h1 {
   font-size: 30px !important;
   text-transform: none !important; }
