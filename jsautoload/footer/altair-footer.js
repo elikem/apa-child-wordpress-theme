@@ -12,11 +12,4 @@ jQuery(document).ready(function($) {
   var newAndNewsLink = '<p style="padding: 10px; text-decoration: underline;"><a href="/new-and-news/">Click here to read our newsletter</a></p>';
   var newAndNewsNode = $('.sidebar_widget.three .widget_sow-contact-form');
   newAndNewsNode.append(newAndNewsLink);
-
-  // Moved this to Revolution Slider's Custom JavaScript
-  // if ($(".home")) {
-  //   revapi35.on('revolution.slide.onloaded', function() {
-  //     $(".slotholder div").append('<div style="background-color: rgba(0, 0, 0, 0.3); width: 100%; height: 100%;"></div>');
-  //   });
-  // }
 });
