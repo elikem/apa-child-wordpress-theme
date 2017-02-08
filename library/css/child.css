@@ -82,7 +82,10 @@ body.home .testimonial_slider_meta h6, body.home .testimonial_slider_meta .testi
   font-family: Raleway;
   font-weight: bold; }
 body.home .photo-credit li {
-  display: inline-block; }
+  display: list-item;
+  float: left;
+  margin: 0;
+  padding: 0; }
 
 .single.single-tours .tour_country_subheader {
   display: none; }
