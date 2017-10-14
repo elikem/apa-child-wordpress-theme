@@ -251,6 +251,7 @@ $pp_footer_style = get_option('pp_footer_style');
 							<?php
 						}
 						?>
+                        <span><a href="/about-us/">About Us</a></span>
 					</div>
 
 					<?php
