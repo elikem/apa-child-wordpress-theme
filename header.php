@@ -251,7 +251,7 @@ $pp_footer_style = get_option('pp_footer_style');
 							<?php
 						}
 						?>
-                        <span><a href="/about-us/">About Us</a></span>
+                        <span class="about-us"><a href="/about-us/">About Us</a></span>
 					</div>
 
 					<?php
@@ -260,6 +260,9 @@ $pp_footer_style = get_option('pp_footer_style');
 					$pp_topbar_social_link_blank = get_option('pp_topbar_social_link_blank');
 					?>
 					<div class="social_wrapper">
+                        <span class="new-and-news">
+                            <a href="/new-and-news/">New & News</a>
+                        </span>
 						<ul>
 							<?php
 							$pp_facebook_username = get_option('pp_facebook_username');

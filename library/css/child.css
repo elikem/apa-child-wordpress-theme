@@ -10,6 +10,22 @@ body {
   font-size: 13px !important;
   line-height: 10px !important; }
 
+.above_top_bar .top_contact_info span.about-us {
+  font-weight: bold; }
+
+.above_top_bar .top_contact_info span {
+  padding-top: 3px; }
+
+.social_wrapper ul {
+  text-align: left; }
+.social_wrapper .new-and-news {
+  float: right;
+  font-size: 13px;
+  padding-top: 4px;
+  font-weight: bold; }
+  .social_wrapper .new-and-news a {
+    color: #da7635; }
+
 #search-text {
   position: absolute;
   top: 10px;

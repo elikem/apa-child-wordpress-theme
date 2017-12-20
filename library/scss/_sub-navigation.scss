@@ -1,0 +1,26 @@
+// Boldens the `About Us` link
+.above_top_bar .top_contact_info span.about-us {
+  font-weight: bold;
+}
+
+// Fixes issue where the vertical lines on each span don't all touch the horizontal line
+.above_top_bar .top_contact_info span {
+  padding-top: 3px;
+}
+
+// Adds a new and news link to the left of the social icons
+.social_wrapper {
+  ul {
+    text-align: left;
+  }
+  .new-and-news {
+    float: right;
+    font-size: 13px;
+    padding-top: 4px;
+    font-weight: bold;
+
+    a {
+      color: #da7635;
+    }
+  }
+}
