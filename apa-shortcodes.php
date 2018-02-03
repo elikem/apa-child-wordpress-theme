@@ -29,17 +29,17 @@ function trip_grading ($grades) {
     $grade_builder = '';
 
     $grading_legend = [
-        'Easy' => 'fa fa-circle-o',
-        'Moderate' => 'fa fa-adjust',
-        'Strenuous' => 'fa fa-circle',
-        'Adventurous' => 'fa fa-tree',
-        'Family' => 'fa fa-users',
-        'High Elevation' => 'fa fa-caret-square-o-up',
-        'Special Festival' => 'fa fa-star'
+        'Easy' => ['Easy / moderate.', 'fa fa-circle-o'],
+        'Moderate' => ['Moderate / strenuous.', 'fa fa-adjust'],
+        'Strenuous' => ['Very strenuous.', 'fa fa-circle'],
+        'Adventurous' => ['For the adventurous!', 'fa fa-tree'],
+        'Family' => ['Suitable for families.', 'fa fa-users'],
+        'High Elevation' => ['Elevation over 10,500 ft.', 'fa fa-caret-square-o-up'],
+        'Special Festival' => ['Special local festival', 'fa fa-star']
     ];
 
     foreach ($grades as $index => $grade) {
-        $grade_builder = $grade_builder . "<span><i class='{$grading_legend[$grade]}'></i> {$grade}</span>";
+        $grade_builder = $grade_builder . "<span><i class='{$grading_legend[$grade][1]}'></i> {$grading_legend[$grade][0]}</span>";
     }
 
     echo "<div class='trip-grading'><p id='heading'><strong>Trip Grading</strong></p><p id='grading'>" . $grade_builder . "</p></div>";
