@@ -29,17 +29,17 @@ function trip_grading ($grades) {
     $grade_builder = '';
 
     $grading_legend = [
-        'Easy' => ['Easy / moderate.', 'fa fa-circle-o'],
-        'Moderate' => ['Moderate / strenuous.', 'fa fa-adjust'],
-        'Strenuous' => ['Very strenuous.', 'fa fa-circle'],
-        'Adventurous' => ['For the adventurous!', 'fa fa-tree'],
-        'Family' => ['Suitable for families.', 'fa fa-users'],
-        'High Elevation' => ['Elevation over 10,500 ft.', 'fa fa-caret-square-o-up'],
-        'Special Festival' => ['Special local festival', 'fa fa-star']
+        'Easy' => ['Easy / moderate.', 'Easy / moderate.', 'fa fa-circle-o'],
+        'Moderate' => ['Moderate / strenuous.', 'Moderate / strenuous. More physically challenging.', 'fa fa-adjust'],
+        'Strenuous' => ['Very strenuous.', 'Very strenuous. Tough, and physically challenging.', 'fa fa-circle'],
+        'Adventurous' => ['For the adventurous!', 'For the adventurous! Could include rustic/basic accommodations in remote, rural areas (sometimes with no running water)', 'fa fa-tree'],
+        'Family' => ['Suitable for families.', 'Suitable for families with children ages 5 and up.', 'fa fa-users'],
+        'High Elevation' => ['Elevation over 10,500 ft.', 'This tour visits elevations in excess of 10,500 ft.', 'fa fa-caret-square-o-up'],
+        'Special Festival' => ['Special local festival', 'This tour includes a special local festival.', 'fa fa-star']
     ];
 
     foreach ($grades as $index => $grade) {
-        $grade_builder = $grade_builder . "<span><i class='{$grading_legend[$grade][1]}'></i> {$grading_legend[$grade][0]}</span>";
+        $grade_builder = $grade_builder . "<span class='tippy' data-tippy-theme='apa' title='{$grading_legend[$grade][1]}'><i class='{$grading_legend[$grade][2]}'></i> {$grading_legend[$grade][0]}</span>";
     }
 
     echo "<div class='trip-grading'><p id='heading'><strong>Trip Grading</strong></p><p id='grading'>" . $grade_builder . "</p></div>";
